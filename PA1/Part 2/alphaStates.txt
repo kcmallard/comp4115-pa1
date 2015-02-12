@@ -1,0 +1,50 @@
+Alabama	2345222	4	Clean	facists
+Alaska	233444	30	Super Clean	open
+Arizona	238792	41	Super Clean	open
+Arkansas	239283	33	Clean	facists
+California	2147483647	5	Smoggy	open
+Colorado	2147483647	9	Super Clean	open
+Connecticut	232837	40	Clean	open
+Delaware	738273	37	Clean	open
+Florida	349834	11	Clean	open
+Georgia	329838	27	Clean	semibigoted
+Hawaii	23293	31	Super Clean	open
+Idaho	122447	25	Filthy	open
+Illinois	2323398	24	Clean	open
+Indiana	982398	36	Clean	open
+Iowa	239723	42	Clean	open
+Kansas	232323	43	Clean	open
+Kentucky	239833	26	Clean	facists
+Louisiana	2147483647	10	Filthy	semibigoted
+Maine	239823	50	Clean	open
+Maryland	872382	44	Clean	open
+Massachusetts	9283389	17	Super Clean	open
+Michigan	123474	47	Filthy	open
+Minnesota	738823	45	Clean	open
+Mississippi	8238332	2	Clean	facists
+Missouri	237288	46	Clean	open
+Montana	2323222	21	Super Clean	open
+Nebraska	928238	35	Super Clean	open
+Nevada	29383	32	Filthy	open
+New Hampshire	239823	49	Super Clean	open
+New Jersey	238727	48	Filthy	semibigoted
+New Mexico	2093039	29	Super Clean	open
+New York	2147483647	8	Filthy	open
+North Carolina	823982	13	Dirty	semibigoted
+North Dakota	239283	23	Super Clean	open
+Ohio	123123	28	Dirty	semibigoted
+Oklahoma	239823	34	Clean	open
+Oregon	2147483647	6	Super Clean	open
+Pennsylvania	2323984	18	Filthy	open
+Rhode Island	232398	16	Super Clean	open
+South Carolina	9823983	12	Clean	facists
+South Dakota	982322	22	Super Clean	open
+Tennessee	98238332	1	Clean	semibigoted
+Texas	54238332	3	Clean	semibigoted
+Utah	323938	19	Super Clean	open
+Vermont	872387	39	Clean	open
+Virginia	982392	14	Clean	semibigoted
+Washington	2147483647	7	Super Clean	open
+West Virginia	928323	15	Clean	facists
+Wisconsin	755832	38	Clean	open
+Wyoming	723838	20	Super Clean	open
