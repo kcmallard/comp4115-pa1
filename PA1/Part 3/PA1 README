@@ -1,0 +1,92 @@
+Kyle Mallard
+Dr. Strange
+Databases
+
+Some information about the tables:
+Customers	(customerNumber, 			-PRI
+		 customerName,
+		 contactLastName,
+		 phone, 
+		 addressLine1,
+		 addressLine2,
+		 city,
+		 state,
+		 postalCode,
+		 country,
+		 salesRepEmployeeNumber, 		-MUL
+		 creditLimit)
+
+Employees	(employeeNumber,			-PRI
+		 lastName,
+		 firstName,
+		 extension,
+		 email,
+		 officeCode,				-MUL
+		 reportsTo,				-MUL
+		 jobTitle)
+
+Offices		(officeCode,				-PRI
+		 city,
+		 phone,
+		 addressLine1,
+		 addressLine2,
+		 state,
+		 country,
+		 postalCode,
+		 territory)
+
+orderdetails	(orderNumber,			-PRI
+		 productCode,				-PRI
+		 quantityOrdered,
+		 priceEach,
+		 orderLineNumber)
+
+order		(orderNumber,			-PRI
+		 orderDate,
+		 requireDate,
+		 shippedDate,
+		 status,
+		 comments,
+		 customerNumber)			-MUL
+
+
+
+
+payments	(customerNumber,			-PRI
+		 checkNumber,			-PRI
+		 paymentDate,
+		 amount)
+
+productlines	(productLine,				-PRI
+		 textDescription,
+		 htmlDescription,
+		 image)
+
+products	(productCode,				-PRI
+		 productName,
+		 productLine,				-MUL
+		 productScale,
+		 productVendor,
+		 productDescription,
+		 quantityInStock,
+		 buyPrice,
+		MSRP)
+
+The Queries Used:
+-Query1: FBI agents raid your company. They have a warrant and wish to investigate your records. One of the tasks is to interview your clients. An agent asks of me (the comp wiz) a list of 20 random clients to contact. The feds would like a list of their names, addresses, and phone numbers.
+
+-Query2: A bounced check! Oh noes!!!  Find the phone number of that delinquent. The check was for over $82,261.22.
+
+-Query3: Who’s the biggest balla of them all? The company has begun speculating on how much money the company makes, annually. The coworkers want to know which client spends the most, and how much that amount is.
+
+-Query4: A new employee called. He wants to know which office he’s working for, and if I had a phone number for the department, as well. The employee’s name is Steve Patterson.
+
+-Query5: The boss wants a quick count of all the products we offer. 
+
+-Query6: New remodeling plans are underway! We need the number of employees per office, asap.
+
+-Query7: Who has the biggest credit limit, and where are they from?
+
+-Query8: Our highest credited customer wants to know if their order has been shipped or not.
+
+Some things learned about the database is that there are many useful key connections between the tables. This worked to my advantage and conducting queries like query number 8, number 2, and others. The above queries demonstrate how a well-connected database can be used to reach for data beyond the confines of any individual table by use of keys and the like.
