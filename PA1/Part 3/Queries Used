@@ -1,0 +1,18 @@
+Kyle Mallard
+Dr. Strange
+
+1.) mysql> select customerName, addressLine1, phone from customers order by rand() limit 20;
+
+2.) mysql> select phone from customers where customerNumber in (select customerNumber from payments where amount = 82261.22);
+
+3.) mysql> select max(amount) from payments;
+
+4.) mysql> select phone from offices where officeCode in (select officeCode from employees where lastName = 'Patterson' && firstName = 'Steve');
+
+5.) mysql> select count(productCode) from products;
+
+6.) mysql> select (select count(employeeNumber) from employees) / (select count(officeCode) from offices);
+
+7.) mysql> select customerName, city, state, max(creditLimit) from customers;
+
+8.) mysql> select shippedDate from orders where orderNumber in (select orderNumber from orderdetails where customerNumber in (select customerNumber from customers where creditLimit > 227000));
